@@ -505,15 +505,15 @@
                 mediaSource: 'https://res.ioe.vn/edu/EOlympic/ExamData/ImageExam/2018/1/3/636505709198154900_566X320.jpg',
                 imagePrompt: 'Picture of a family in a living room, with parents on a sofa and two children sitting on the floor with toys/books.',
                 options: [
-                    { text: 'A. His family is watching TV.', isCorrect: true }, 
+                    { text: 'A. His family is watching TV.', isCorrect: false }, 
                     { text: 'B. His parents are sitting on the sofa.', isCorrect: false },
-                    { text: 'C. His sister is holding a bowl of popcorn.', isCorrect: false }, 
+                    { text: 'C. His sister is holding a bowl of popcorn.', isCorrect: true }, 
                     { text: 'D. He is sitting next to his sister on the floor.', isCorrect: false }
                 ],
-                correctAnswer: 'A. His family is watching TV.',
-                correctAnswer_vi: 'Gia đình cậu ấy đang xem TV (Đây là câu sai - FALSE, vì họ đang đọc sách/chơi).',
+                correctAnswer: 'C. His sister is holding a bowl of popcorn.',
+                correctAnswer_vi: 'C. His sister is holding a bowl of popcorn. (Đây là câu sai - FALSE, vì họ đang đọc sách/chơi).',
                 hint_vi: 'Quan sát các thành viên đang làm gì. Câu nào MÔ TẢ SAI hành động trong hình?',
-                rationale_vi: 'Thường thì trong bức ảnh này, gia đình đang đọc sách hoặc chơi, chứ không phải xem TV. Do đó, A là câu sai (FALSE).',
+                rationale_vi: 'C là câu sai (FALSE).',
                 rationale_en: 'In this specific IOE image, the family is usually reading or playing, meaning the statement "watching TV" is false.',
             },
             {
@@ -865,7 +865,7 @@
             {
                 type: 'rearrange',
                 question: '2. Sắp xếp các từ/cụm từ sau thành câu đúng:',
-                words: ['month', 'the year.', 'is the tenth', 'of October'],
+                words: ['month', 'of the year.', 'is the tenth', 'October'],
                 correctAnswer: 'October is the tenth month of the year.',
                 correctAnswer_vi: 'Tháng Mười là tháng thứ mười của năm.',
                 hint_vi: 'Tháng 10 là tháng thứ 10. Cấu trúc: Subject + to be + ordinal number + month + of the year.',
@@ -1313,15 +1313,15 @@
                 question: '37. Choose the word that the has the underlined part pronounced differently from the others',
                 options: [
                     { text: 'A. El**e**ven', isCorrect: false },
-                    { text: 'B. Stud**e**nt', isCorrect: false },
-                    { text: 'C. P**e**n', isCorrect: true },
+                    { text: 'B. Stud**e**nt', isCorrect: true },
+                    { text: 'C. P**e**n', isCorrect: false},
                     { text: 'D. T**e**n', isCorrect: false }
                 ],
-                correctAnswer: 'C. Pen',
-                correctAnswer_vi: 'Pen (âm /e/)',
-                hint_vi: 'Trong các đề thi, "e" trong Pen thường là âm khác với các từ còn lại trong nhóm này.',
-                rationale_vi: 'Trong các đáp án IOE mẫu, "Pen" có âm nguyên âm ngắn /e/ rõ rệt, khác với âm /ɪ/ hoặc /u:/ của một số từ còn lại.',
-                rationale_en: 'The short vowel sound /e/ in "Pen" is typically the odd one out in this common set.',
+                correctAnswer: 'B. student',
+                correctAnswer_vi: 'student (âm /ə/)',
+                hint_vi: 'Trong các đề thi, "e" trong student thường là âm khác với các từ còn lại trong nhóm này.',
+                rationale_vi: 'Trong các đáp án IOE mẫu, "student" có âm nguyên âm ngắn /ə/ rõ rệt, khác với âm /ɪ/ hoặc /u:/ của một số từ còn lại.',
+                rationale_en: 'The short vowel sound /ə/ in "student" is typically the odd one out in this common set.',
             },
             {
                 type: 'mc',
@@ -1499,7 +1499,7 @@
                 audioContent: 'This is a small green candy.',
                 options: [
                     { text: 'A. This is a big green candy.', isCorrect: false },
-                    { text: 'B. This is a small green frog.', isCorrect: false },
+                    { text: 'B. This is a small blue frog.', isCorrect: false },
                     { text: 'C. This is a small green candy.', isCorrect: false },
                     { text: 'D. This is a big green frog.', isCorrect: true }
                 ],
@@ -1746,7 +1746,7 @@
                 mediaType: 'image',
                 mediaSource: 'https://res.ioe.vn/edu/EOlympic/ExamData/ImageExam/2013/11/22/635207426256256193_566X320.jpg',
                 imagePrompt: 'Picture of a banana.',
-                correctAnswer: 'nan',
+                correctAnswer: 'na',
                 correctAnswer_vi: 'chuối',
                 hint_vi: 'Tên một loại trái cây. (3 ký tự)',
                 rationale_vi: 'Hình ảnh mô tả quả chuối (banana).',
